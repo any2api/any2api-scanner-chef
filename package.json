@@ -1,0 +1,32 @@
+{
+  "name": "any2api-scanner-chef",
+  "version": "0.0.1",
+  "author": "Johannes Wettinger <mail@jojow.de>",
+  "description": "Chef cookbook scanner for any2api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/any2api/any2api-scanner-chef"
+  },
+  "contributors": [
+    {
+      "name": "Johannes Wettinger",
+      "email": "mail@jojow.de"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "any2api",
+    "chef",
+    "cookbook",
+    "scanner"
+  ],
+  "preferGlobal": false,
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "debug": "~2.1.0",
+    "flat": "~1.3.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  }
+}
