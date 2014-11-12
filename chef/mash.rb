@@ -224,4 +224,52 @@ class Mash < Hash
       value
     end
   end
+
+  # Dummy stuff
+  public
+  def attribute?(arg)
+  end
 end
+
+
+
+# Dummy stuff
+module Chef
+  module Log
+    def self.info(arg)
+    end
+
+    def self.debug(arg)
+    end
+
+    def self.error(arg)
+    end
+
+    def self.warn(arg)
+    end
+
+    def self.fatal(arg)
+    end
+  end
+end
+
+def log(arg)
+end
+
+def include_attribute(arg)
+end
+
+def platform(arg)
+end
+
+def platform_family(arg)
+end
+
+def value_for_platform(arg)
+end
+
+def value_for_platform_family(arg)
+end
+
+cookbook_name = 'cookbook'
+recipe_name = 'recipe'
