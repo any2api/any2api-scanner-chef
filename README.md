@@ -4,10 +4,10 @@
 
 Chef cookbook scanner for any2api
 
-    npm install any2api-scanner-chef
+    any2api install scanner any2api-scanner-chef
 
 
 
 ## How to use any2api
 
-See [any2api-cli](https://www.github.com/any2api/any2api-cli) for how to use any2api from the command line.
+See [any2api.org](http://any2api.org) for more information about any2api.
