@@ -28,8 +28,5 @@
   },
   "scripts": {
     "postinstall": "tput setaf 6 2>/dev/null ; echo \"INFO: Please ensure that 'ruby' is installed.\" ; tput sgr0 2>/dev/null ; true"
-  },
-  "engines": {
-    "node": ">= 0.10"
   }
 }
